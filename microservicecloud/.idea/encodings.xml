@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-config-3344" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-config-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-config-client-3355" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-config-client-3355/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-heign-80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-heign-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-book-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-book-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-book-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-book-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-book-8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-book-hystrix-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-book-hystrix-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-entity-8003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-entity-8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/java" charset="UTF-8" />
+  </component>
+</project>

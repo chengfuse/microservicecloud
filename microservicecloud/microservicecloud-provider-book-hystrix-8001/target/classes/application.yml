@@ -1,0 +1,38 @@
+#端口号
+server:
+   port: 8011
+#mybatis整合
+spring:
+  application:
+    name: microservicecloud-book
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    dbcp2:
+      min-idle: 5
+      initial-size: 5
+      max-total: 5
+      max-wait-millis: 200
+#eureka指定注册机
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance-id: microservicecloud-book8001-hystrix
+    prefer-ip-address: true
+#info配置
+info:
+  app.name: bdqn-microservicecloud
+  company.name: www.cheng.com
+  build.artifactId: microservicecloud-provider-book-hystrix-8001
+  build.version: 0.0.1-SNAPSHOT
+#hystrix的actuator/hystrix.stream配置和healthy配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -1,0 +1,26 @@
+#端口号
+server:
+   port: 8003
+#mybatis整合
+spring:
+  application:
+    name: microservicecloud-book
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/test2?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#eureka指定注册机
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance-id: microservicecloud-book8003
+    prefer-ip-address: true
+info:
+  app.name: bdqn-microservicecloud
+  company.name: www.cheng.com
+  build.artifactId: microservicecloud-provider-entity-8003
+  build.version: 0.0.1-SNAPSHOT

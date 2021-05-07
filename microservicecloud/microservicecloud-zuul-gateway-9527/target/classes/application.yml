@@ -1,0 +1,24 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: microservicecloud-zuul-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+info:
+  app.name: bdqn-microservicecloud
+  company.name: www.cheng.com
+  build.artifactId: microservicecloud-zuul-gateway-9527
+  build.version: 0.0.1-SNAPSHOT
+#zuul配置创建代理名字
+zuul:
+  routes:
+    mybook.serviceId: microservicecloud-book
+    mybook.path: /mybook/**
+  ignored-services: "*" #忽略使用当前的访问名
+    prefix: /cheng #添加前缀名通常用于公司的名称

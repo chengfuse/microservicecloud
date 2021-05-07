@@ -1,0 +1,6 @@
+com\bdqn\service\BookClientService.class
+com\bdqn\service\BookClientServiceFallbackFactroy$1.class
+com\bdqn\Application\Application.class
+com\bdqn\entity\User.class
+com\bdqn\entity\Book.class
+com\bdqn\service\BookClientServiceFallbackFactroy.class
